@@ -1,0 +1,96 @@
+.navigation
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    background-color: black;
+    padding: 20px;
+    margin: 0px;
+}
+.navigation 
+{
+    list-style: none;
+
+}
+.navigation li a
+{
+text-decoration: none;
+border-right: 1px solid grey;  
+padding: 19px;
+color: white;
+}
+
+.landing-page
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: rgb(234, 238, 238);
+    height: 810px;
+}
+
+.pet-detail
+{
+    border: 2px solid black;
+    text-align: left;
+    margin: 40px 40px 0px 40px;
+    padding: 34px;
+    box-shadow: 2px 4px 8px grey;
+
+}
+
+.pet-details
+{
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 2px 4px 8px grey;
+}
+.pet-details img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    
+}
+.pet-details p
+{
+    
+}
+
+.pet-stats
+{
+    border-top: 1px solid black;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.pet-desc img{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    
+}
+
+.pictures-pet
+{
+    margin-top: 80px;
+    border: 2px solid black;
+    margin: 40px 40px 0px 40px;
+    box-shadow: 2px 4px 8px grey;
+
+
+}
+.pictures-pet h2{
+ text-align: center;
+}
+.dogs
+
+{
+    display: flex;
+    justify-content: space-around;
+}
+.dogs img
+{
+    object-fit: contain;
+    width: 200px;
+}
